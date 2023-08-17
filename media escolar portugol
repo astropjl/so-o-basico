@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//astropjl
+		real not1, not2, not3, not4, media, soma
+		inteiro idade
+		cadeia nome
+		escreva("Insira o nome do estudante: ")
+		leia (nome)
+		escreva("Insira a idade do estudante: ")
+		leia (idade)
+		escreva("Insira a primeira nota: ")
+		leia (not1)
+		escreva("Insira a segunda nota: ")
+		leia (not2)
+		escreva("Insira a terceira nota: ")
+		leia (not3)
+		escreva("Insira a quarta nota: ")
+		leia (not4)
+		soma=not1+not2+not3+not4
+		media=(soma)/4
+		escreva("A mmédia final desse estudante é:", media)
+	}
+}
